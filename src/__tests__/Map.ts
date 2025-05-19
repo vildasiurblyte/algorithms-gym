@@ -1,4 +1,4 @@
-import MyMap from "@code/Map";
+import MyMap from "algorithms/Map";
 
 test("Map", function() {
     const map = new MyMap<string, number>();

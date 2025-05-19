@@ -1,4 +1,4 @@
-import LRU from "@code/LRU";
+import LRU from "algorithms/LRU";
 
 test("LRU", function () {
     const lru = new LRU<string, number>(3) as ILRU<string, number>;

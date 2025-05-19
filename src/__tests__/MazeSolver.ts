@@ -1,4 +1,4 @@
-import maze_solver from "@code/MazeSolver";
+import maze_solver from "algorithms/MazeSolver";
 
 test("maze solver", function () {
     const maze = [
