@@ -27,6 +27,8 @@ Arrays documentation can be found [here](/src/algorithms/arrays/README.md).
 
 ### Linear search
 
+Running time of linear search is 0(n). The implementation can be found [here](/src/algorithms/search/LinearSearchList.ts).
+
 ### Binary search
 
 ### Two Crystal Balls Problem
