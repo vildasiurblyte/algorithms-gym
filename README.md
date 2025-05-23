@@ -31,6 +31,10 @@ Running time of linear search is 0(n). The implementation can be found [here](/s
 
 ### Binary search
 
+An important question you should always ask yourself when it comes to your data set, is it ordered? If your data set is ordered, you have new advantages you can take with that data.
+
+Running time is O(logN). Implementation can be found [here](/src/algorithms/search/BinarySearchList.ts).
+
 ### Two Crystal Balls Problem
 
 ## Sort 
