@@ -37,6 +37,12 @@ Running time is O(logN). Implementation can be found [here](/src/algorithms/sear
 
 ### Two Crystal Balls Problem
 
+Given two crystal balls that will break if dropped from high enough distance, determine the exact spot in which it will break in the most optimized way.
+
+We could use linear search, but the running time will be O(n), which does not meet the task criteria - find the most optimized way. To make this more efficient we could "walk" in different unit, for example, square root of N. So that means that we will walk the array a square root amount of times until it breaks. And if it breaks, we have to walk backwards to our last known good point and find the point of breaking. So, the running time would be O(square root of N). 
+
+Implementation can be found [here](/src/algorithms/search/TwoCrystalBalls.ts).
+
 ## Sort 
 
 ### Bubble sort
