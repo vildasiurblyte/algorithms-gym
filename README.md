@@ -47,6 +47,18 @@ Implementation can be found [here](/src/algorithms/search/TwoCrystalBalls.ts).
 
 ### Bubble sort
 
+One of the most simplest sorting algorithms. General definition of a bubble sort is this, any x sub i, meaning ith position within array, is going to be less than or equal to any i + 1. This is true for the entire array. That is how we know an array is sorted.
+
+If we have an array that's not sorted, this property does not hold true universally. It may hold true in specific instances but not universally. 
+
+How bubble sort works? It starts in the zeroth position and it's going to go to the end of the array. What it is going to do is going to look at the element next to it (element + 1), and if the current element is larger that the one next to it, they will swap positions. That's the entirity of the algorithm. 
+
+A singular iteration will always produce the largest item in the last spot. That means the next time we do the bubble sort we only have to go up to but not include the last position, because it is already sorted.
+
+The first time we go through the array, we do n checks. The second time we only have to do n - 1 checks and so on. After dropping the constants and the insignificant values, the running time of this algorithm is O(n square).
+
+Implementation can be found [here](/src/algorithms//sort/BubbleSort.ts)
+
 ### Linked list
 
 ### Queue
